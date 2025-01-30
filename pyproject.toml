@@ -2,6 +2,8 @@
 name = "mathlamp-pocket"
 version = "0.0.2"
 description = "MathLamp strpped down to fit in your pocket"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
     {name = "RubberSpring",email = "143825964+RubberSpring@users.noreply.github.com"}
 ]
