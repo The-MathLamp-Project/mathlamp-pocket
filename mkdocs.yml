@@ -1,6 +1,6 @@
 site_name: mathlamp-pocket
 repo_url: "https://github.com/The-MathLamp-Project/mathlamp-pocket"
-repo_name: "is error is due to changes in GnuPG 2.1, which only recently landed in Debian Testing. The error occurs because GnuPG 2.1 by default ignores passphrases passed in via environment variables or stdin, and is trying to show a pinentry prompt. "Inappropriate ioctl for device" is thrown because the Backupninja script is not running through a TTY, so there's no way to actually render the prompt.mathlamp-pocket"
+repo_name: "mathlamp-pocket"
 
 watch:
   - mathlamp_pocket
@@ -42,8 +42,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-
-
 
 plugins:
   - search
