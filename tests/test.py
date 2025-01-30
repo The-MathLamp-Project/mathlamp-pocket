@@ -3,9 +3,9 @@ from mathlamp_pocket.lines import CodeRunner
 
 def test_repl():
     console = REPL()
-    result = console.runLine("1 + 1")
+    result = console.run_line("1 + 1")
     assert result == 2
-    result = console.runCodeLines("""
+    result = console.run_code_lines("""
     1 + 1
     2 * 2
     """)
@@ -14,7 +14,7 @@ def test_repl():
 
 def test_runner():
     console = CodeRunner()
-    result = console.runCodeLines("""
+    result = console.run_code_lines("""
     1 + 2
     out[1 + 1]
     out[2 * 2]
